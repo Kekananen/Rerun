@@ -1,0 +1,15 @@
+rule all:
+
+rule anvio:
+
+rule pathway_analysis_all:
+
+rule intersect_subtraction_pathways:
+
+rule visualize_missing_assembly_positions:
+
+rule visualize_unique_pathways:
+
+rule visualize_no_annotation_regions:
+
+rule report_generation:
