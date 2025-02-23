@@ -1,2 +1,9 @@
 # Rerun
-A snakemake workflow that compares annotations between multiple genomes and then only returns annotations that are present uniquely in each genome. The main use case would be a quick comparison of functional annotations among strains to check for phenotypes associated with host disease progression such as cancer.
+Goal: *Quick comparison of bacterial strain function utalizing improved annotations from dynamic threshold ajustments.* 
+
+Limitations: 
+- Will only look at gain of function and not loss.
+- Will be limited by annotation databases used.
+- May not be comprehensive enough to infer strain level phenotype changes based solely on pathway completness.
+- Does not take into account protien structures.
+- The developer (myself) will be using this as a way to learn Rust so the code may be more buggy than normal.
